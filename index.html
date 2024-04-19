@@ -11,23 +11,27 @@
   <body>
     <div class="container">
       <header>
+        <h1 class="title">African American Inspired</h1>
         <h1>AI Poem Generator</h1>
       </header>
 
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter a topic for a African American inspired poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Flower, Purple, or Joy</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
