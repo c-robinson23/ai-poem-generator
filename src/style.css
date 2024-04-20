@@ -1,27 +1,42 @@
 body {
-  background-color: #f9f7fe;
+  background: linear-gradient(
+    to right,
+    rgb(137, 183, 137),
+    rgb(192, 192, 192),
+    rgb(200, 156, 156)
+  );
   font-family: Arial, Helvetica, sans-serif;
 }
 .container {
-  margin: 120px auto;
+  margin: 80px auto;
   max-width: 600px;
 }
 header {
   margin-bottom: 30px;
 }
 
+.title {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
 h1 {
-  font-weight: 800;
-  font-size: 36px;
+  font-weight: 400;
+  font-size: 30px;
   line-height: 1.5;
   color: #272044;
   text-align: center;
+  margin: 0;
 }
 
 .form-container {
   background-color: white;
   margin-bottom: 30px;
   border-radius: 10px;
+  border: 2px solid black;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   padding: 15px 20px;
 }
@@ -48,7 +63,7 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background: #885df1;
+  background: rgb(214, 200, 175);
   color: white;
   border: none;
   width: 150px;
@@ -61,7 +76,7 @@ form {
   background-color: white;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid #885df1;
+  border-left: 3px solid rgb(214, 200, 175);
   box-shadow: 0px 4px 30px 00px rgba(39, 33, 66, 0.03);
 }
 
@@ -70,7 +85,7 @@ form {
 }
 
 .poem em {
-  color: #885df1;
+  color: rgb(214, 200, 175);
 }
 
 footer {
@@ -80,7 +95,7 @@ footer {
 }
 
 a {
-  color: #885df1;
+  color: rgb(87, 87, 87);
 }
 
 .generating-blink {
